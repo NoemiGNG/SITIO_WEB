@@ -32,7 +32,7 @@ table, th, td {
 }
 
 th {
-    background-color: #4ECDC4; /* Color de fondo para los encabezados */
+    background-color: #4ECDC4; 
     font-weight: bold;
 }
 
@@ -77,7 +77,7 @@ footer p {
 }
 
 footer a {
-    color: #F0A202; /* Un color llamativo para los enlaces */
+    color: #F0A202; 
     text-decoration: none;
 }
 
@@ -92,27 +92,27 @@ footer a:hover {
 }
 
 .nav .active a {
-    color: #F0A202; /* Color distintivo para la página actual */
-    text-decoration: underline; /* Subrayado para resaltar */
+    color: #F0A202; 
+    text-decoration: underline; 
 }
 
 /* Ajustes para pantallas pequeñas (celulares) */
 @media (max-width: 768px) {
     .container {
-        padding: 10px; /* Reduce el padding para dispositivos más pequeños */
+        padding: 10px; 
     }
 
     img {
-        width: 100%; /* Ajusta las imágenes para que ocupen todo el ancho */
-        height: auto; /* Mantén la proporción correcta */
+        width: 100%; 
+        height: auto; 
     }
 
     nav li {
-        display: block; /* Los enlaces del menú se apilan verticalmente */
-        margin: 10px 0; /* Espaciado entre elementos del menú */
+        display: block; 
+        margin: 10px 0; 
     }
 
     table, th, td {
-        font-size: 14px; /* Reduce el tamaño del texto de las tablas */
+        font-size: 14px; 
     }
 }
