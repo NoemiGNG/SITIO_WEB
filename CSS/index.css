@@ -95,3 +95,24 @@ footer a:hover {
     color: #F0A202; /* Color distintivo para la página actual */
     text-decoration: underline; /* Subrayado para resaltar */
 }
+
+/* Ajustes para pantallas pequeñas (celulares) */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Reduce el padding para dispositivos más pequeños */
+    }
+
+    img {
+        width: 100%; /* Ajusta las imágenes para que ocupen todo el ancho */
+        height: auto; /* Mantén la proporción correcta */
+    }
+
+    nav li {
+        display: block; /* Los enlaces del menú se apilan verticalmente */
+        margin: 10px 0; /* Espaciado entre elementos del menú */
+    }
+
+    table, th, td {
+        font-size: 14px; /* Reduce el tamaño del texto de las tablas */
+    }
+}
