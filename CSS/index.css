@@ -1,0 +1,97 @@
+body {
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #880085;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Centrado automático */
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: #4ECDC4; /* Color de fondo para los encabezados */
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #1C0F13;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1C0F13;
+    color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #F0A202; /* Un color llamativo para los enlaces */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.nav a {
+    text-decoration: none;
+    color: #fdf4f4;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.nav .active a {
+    color: #F0A202; /* Color distintivo para la página actual */
+    text-decoration: underline; /* Subrayado para resaltar */
+}
